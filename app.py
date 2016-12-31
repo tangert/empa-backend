@@ -3,6 +3,7 @@ from peewee import *
 from flask_mysqldb import MySQL
 import urllib
 
+dbURL = "empa-1.cglbr7fncraq.us-west-2.rds.amazonaws.com:3306"
 app = Flask(__name__)
 mysql = MySQL(app)
 
